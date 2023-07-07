@@ -1,0 +1,35 @@
+.header_ {
+  width: 80%;
+  padding: 15px 50px;
+  border-bottom: 1px solid #ffffff50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nav_brand {
+  position: relative;
+}
+.nav_brand .nav_item {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 0 10px;
+}
+
+.singup {
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition-duration: 200ms;
+}
+.singup:hover{
+    opacity: .7;
+}

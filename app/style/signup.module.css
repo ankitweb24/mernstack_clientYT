@@ -1,0 +1,50 @@
+.form_{
+    background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 35%;
+  height: auto;
+  padding: 15px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+.form_control{
+    margin: 10px 0;
+}
+.form_control input{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    border-bottom: 1px solid #ffffff6c;
+    background-color: transparent;
+    color: #fff;
+}
+.form_control input::placeholder{
+    color: #ffffff6a;
+}
+.form_control label{
+    color: #fff;
+}
+.form_ h2{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.form_ button{
+    color: #010000a3;
+    padding: 15px 25px;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition-duration: 200ms;
+    cursor: pointer;
+}
