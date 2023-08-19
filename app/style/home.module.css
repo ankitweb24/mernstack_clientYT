@@ -1,0 +1,14 @@
+.home_ {
+  background-color: #fff;
+  padding: 30px;
+  width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.6rem;
+}
